@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: rgb(139, 193, 243);
+}
+
+.mainDiv{
+    background-color: #e4ebf5;
+    width: 450px;
+    min-height: 350px;
+    overflow: hidden;
+    margin-top: 60px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.mainDiv h1{
+    text-align: center;
+    color: #fff;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.myForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myForm input {
+    margin-top: 20px;
+    width: 400px;
+    padding: 10px 20px;
+    outline: 0ch;
+    border-radius: 4px;
+    color: darkgray;
+    border: 1px solid dodgerblue;
+}
+
+  .fa-plus {
+    width: 30px;
+    height: 31px;
+    outline: 0ch;
+    cursor: pointer;
+    font-size: 15px;
+    position: relative;
+    bottom: 30px;
+    left: 182px;
+    border-radius: 50%;
+    color: darkgray;
+    border: none;
+    font-size: 18px;
+    transition: 0.5s;
+    text-align: center;
+}
+.update {
+    outline: 0ch;
+    cursor: pointer;
+    font-size: 15px;
+    position: relative;
+    bottom: 28px;
+    background: none;
+    left: 160px;
+    font-weight: bold;
+    color: darkgray;
+    border: none;
+    transition: 0.5s;
+    text-align: center;
+}
+
+  .myForm .fa-plus:hover {
+    color: dodgerblue;
+}
+.myForm .update:hover {
+    color: dodgerblue;
+}
+
+  .myForm input:hover{
+    border: 1px solid rgb(139, 193, 243);
+}
+
+.myOl{
+    width: 420px;
+}
+
+.myOl li {
+    font-family: "Lato", sans-serif;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    color: dodgerblue;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+      rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.fa-trash{
+    float: right;
+    color: red;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.fa-edit {
+    float: right;
+    color: yellowgreen;
+    position: relative;
+    cursor: pointer;
+    right: 10px;
+}
+
+.fa-check {
+    float: right;
+    color: darkgreen;
+    position: relative;
+    cursor: pointer;
+    right: 20px;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
